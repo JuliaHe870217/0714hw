@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "微軟正黑體",Arial, Helvetica, sans-serif;
+    background: linear-gradient(8deg, #8bfafa, #212369);
+    
+
+}
+
+#app{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: rgb(149, 204, 144);
+    flex-direction: column;
+    // 讓頁碼跟照片垂直排列
+    position: relative;
+
+    .photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #img{
+            width: 400px;
+            height: 400px;
+        }
+        #left{
+            width: 100px;
+            height: 100px;
+        }
+        #right{
+            width: 100px;
+            height: 100px;
+        }
+    }
+    #page{
+        margin-top: 50px;
+    }
+    #logo{
+        width:auto;
+        height: 20%;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+    }
+}
+
+
